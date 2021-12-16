@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgbUI5qxL/UiZvL0kCYTsWwAAAAACAAAAAAAQZgAAAAEAACAAAAAc/hSVo65CKPkNBTRyZtXmRdNeUpT3YwgBwsjj2pNxZQAAAAAOgAAAAAIAACAAAAACyvDZyaIC2asb67gcBH1ujvRI/8nEA1C8W5uPaBKvwIAAAACNvTpeYzwxMHUxNVX+59H4A090aiQg3/oScXXhTs8Ac5BszJSgVFg4LKHlh8BcRcHCYNJYLNVcEi5kHFXrCgxshMIxTr/83ZTLlrjFtQB/erRdmkiAK2lCNIJKLaQOqha4QZIbKR0sIAxLC7c4DusWEcs1VIfKSfB9+kAbekq58kAAAAALI7o5LCmrlPMpNISMyEhquaNxgAdFbGm9+98eEX8psDVLvXsHDCPQ+8wy/sZvbTrNLZ3+WwEhnd9EoFtqYzvO</EncryptedPassword>
+    <History>False|2021-12-16T21:38:28.5541987Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:dotnettest.database.windows.net,1433%3bInitial Catalog=dotnetTest%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=homero!%40#%241234%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBookWeb.Data.ApplicationDbContext">
+      <Value>Server=tcp:dotnettest.database.windows.net,1433%3bInitial Catalog=dotnetTest%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=homero!%40#%241234%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
