@@ -1331,11 +1331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\breso\\dotnet_course\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\breso\\aspdotnet\\DatingApp\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\breso\\dotnet_course\\DatingApp\\API\\API.csproj",
+      "projectPath": "C:\\Users\\breso\\aspdotnet\\DatingApp\\api\\API.csproj",
       "packagesPath": "C:\\Users\\breso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\breso\\dotnet_course\\DatingApp\\API\\obj\\",
+      "outputPath": "C:\\Users\\breso\\aspdotnet\\DatingApp\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\breso\\AppData\\Roaming\\NuGet\\NuGet.Config",

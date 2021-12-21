@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xwLVqMy5UOrzilMJKqweBvdhZ8fWfHq9HoLpbhZNFHLB2QorZruYTZB3SnvrctV/3k+HGOo57oIe/bWKC0NukA==",
+  "dgSpecHash": "s9aR93W4scuXR96a5yv+A/Sb6nmgSxThRJ7Gz5serNfC4oTC85EDfJNfIQ68RTaXqOHq7R8YzQyk4C8z7E2d8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\breso\\dotnet_course\\DatingApp\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\breso\\aspdotnet\\DatingApp\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\breso\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\breso\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.1\\microsoft.data.sqlite.core.6.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\breso\\dotnet_course\\DatingApp\\api\\API.csproj": {}
+    "C:\\Users\\breso\\aspdotnet\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\breso\\dotnet_course\\DatingApp\\api\\API.csproj": {
+    "C:\\Users\\breso\\aspdotnet\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\breso\\dotnet_course\\DatingApp\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\breso\\aspdotnet\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\breso\\dotnet_course\\DatingApp\\api\\API.csproj",
+        "projectPath": "C:\\Users\\breso\\aspdotnet\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\breso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\breso\\dotnet_course\\DatingApp\\api\\obj\\",
+        "outputPath": "C:\\Users\\breso\\aspdotnet\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\breso\\AppData\\Roaming\\NuGet\\NuGet.Config",
