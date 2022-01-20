@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\breso\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\BulkyBookWeb.csproj": {}
+    "D:\\Users\\breso\\Documents\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\BulkyBookWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\breso\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\BulkyBookWeb.csproj": {
+    "D:\\Users\\breso\\Documents\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\BulkyBookWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\breso\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\BulkyBookWeb.csproj",
+        "projectUniqueName": "D:\\Users\\breso\\Documents\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\BulkyBookWeb.csproj",
         "projectName": "BulkyBookWeb",
-        "projectPath": "C:\\Users\\breso\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\BulkyBookWeb.csproj",
+        "projectPath": "D:\\Users\\breso\\Documents\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\BulkyBookWeb.csproj",
         "packagesPath": "C:\\Users\\breso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\breso\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\obj\\",
+        "outputPath": "D:\\Users\\breso\\Documents\\aspdotnet\\BulkyBook2\\BulkyBookWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\breso\\AppData\\Roaming\\NuGet\\NuGet.Config",
