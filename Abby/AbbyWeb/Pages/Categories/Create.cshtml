@@ -6,16 +6,24 @@
         <hr />
         <div asp-validation-summary="All"></div>
         <div class="row pb-2">
-            <label asp-for="@Model.CategoryName">Category Name</label>
-            <input asp-for="@Model.CategoryName" class="form-control"/>
-            <span asp-validation-for="@Model.CategoryName" class="text-danger"></span>
+            <label asp-for="@Model.Categories.CategoryName">Category Name</label>
+            <input asp-for="@Model.Categories.CategoryName" class="form-control"/>
+            <span asp-validation-for="@Model.Categories.CategoryName" class="text-danger"></span>
         </div>
         <div class="row pb-2">
-            <label asp-for="@Model.DisplayOrder">Display Order</label>
-            <input asp-for="@Model.DisplayOrder" class="form-control"/>
-            <span asp-validation-for="@Model.DisplayOrder" class="text-danger"></span>
+            <label asp-for="@Model.Categories.DisplayOrder">Display Order</label>
+            <input asp-for="@Model.Categories.DisplayOrder" class="form-control"/>
+            <span asp-validation-for="@Model.Categories.DisplayOrder" class="text-danger"></span>
         </div>
+        <hr />
         <button type="submit" class="btn btn-primary">Create</button>
         <a asp-page="/Categories/Index" class="btn btn-primary">Back to list</a>
     </div>
 </form>
+
+@* With client side validation the server is not requested to validade de data *@
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}

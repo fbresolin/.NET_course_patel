@@ -6,24 +6,26 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 namespace AbbyWeb.Pages.Categories
 {
     [BindProperties]
-    public class CreateModel : PageModel
+    public class DeleteModel : PageModel
     {
         private readonly ApplicationDBContext _db;
         public Category Categories { get; set; }
-        public CreateModel(ApplicationDBContext db)
+        public DeleteModel(ApplicationDBContext db)
         {
             _db = db;
         }
-        public void OnGet()
+        public void OnGet(int Id)
         {
+            Categories = _db.Categories.Find(Id);
         }
         public async Task<IActionResult> OnPost()
         {
-            if (ModelState.IsValid)
+            var categoryFromDb = _db.Categories.Find(Categories.Id);
+            if (categoryFromDb != null)
             {
-                await _db.Categories.AddAsync(Categories);
+                _db.Categories.Remove(categoryFromDb);
                 await _db.SaveChangesAsync();
-                TempData["success"] = "Category created successfully";
+                TempData["success"] = "Category deleted successfully";
                 return RedirectToPage("Index");
             }
             return Page();
