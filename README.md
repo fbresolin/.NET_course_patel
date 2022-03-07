@@ -1,1 +1,1 @@
-.NET course with a complete .NET application provided by Bhrugen Patel.
+Development of a complete .NET application using MVC and Razor Pages with database communication
